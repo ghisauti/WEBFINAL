@@ -1,0 +1,490 @@
+#cabecera {
+	background: rgb(41, 112, 30);
+	color: white;
+	height: 80px;
+    position: fixed;
+    z-index: 100;
+}	
+#cabecera a {
+	color: white;
+}
+#logo-cabecera {
+	float: left;
+	padding: 30px 0 0 15px;
+	text-decoration: none;
+    font-size: 25px;
+    position: fixed;
+    z-index: 100;
+}	
+#logo-cabecera .sitio-nombre {
+	display: block;
+	font-weight: 700;
+}
+	#logo-cabecera .sitio-desc {
+	display: block;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a {
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+}
+#cabecera {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 80px;
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    position: fixed;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(8, 6, 6);
+    background: #f2f2f2; 
+}
+.foto_inicio{
+    width: 100%;
+    right: 100%;
+    display: block;
+    margin: auto;
+}
+.foto_inicio1{
+    object-position: 50% 50%;
+}
+.tamanio_letra{
+    max-width: 800px;
+    margin: 100px auto;
+	font-size: 24px;
+	font-family: Helvetica;
+	text-align: center;
+    line-height: 24px;
+}
+.textositio{
+    font-family: Helvetica;
+    font-size: 30px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 200px;
+    width: 1350px;
+    right: 1px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.footer2{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 200px;
+    width: 1350px;
+    right: 1px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffffff;
+    top: 1347px
+ }
+ 
+.fotorenglon1{
+    position:absolute;
+    width: 255px;
+    height: 312px;
+    left: 551px;
+    top: 100px;  
+}
+.letrarenglon1{
+    font-size: 17px;
+    top: 393px;
+    position: absolute;
+    left: 558px;
+    font-family: sans-serif;
+}
+.letrarenglon11{
+    font-size: 32px;
+    top: 410px;
+    position: absolute;
+    left: 558px;
+    font-family: sans-serif;
+}
+.fotorenglonuno{
+    position: absolute;
+    width: 255px;
+    height: 312px;
+    left: 119px;
+    top: 100px;
+}
+.letrarenglonuno{
+    font-size: 17px;
+    top: 393px;
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif;
+}
+.letrarenglonunouno{
+    font-size: 32px;
+    top: 410px;
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif;
+}
+.fotorenglonone{
+    position: absolute;
+    width: 255px;
+    height: 312px;
+    left: 995px;
+    top: 100px;
+}
+.letrarenglonone{
+    font-size: 17px;
+    top: 393px;
+    position: absolute;
+    left: 995px;
+    font-family: sans-serif;
+}
+.letrarenglononeone{
+    font-size: 32px;
+    top: 410px;
+    position: absolute;
+    left: 995px;
+    font-family: sans-serif;
+}
+.fotorenglon2{
+    position: absolute;
+    top: 490px;
+    width: 255px;
+    height: 312px;
+    left: 120px;
+}
+.letrarenglon2{
+    font-size: 17px;
+    top: 786px;
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif; 
+}
+.letrarenglon22{
+    font-size: 32px;
+    top: 820px;
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif;
+}
+.fotorenglondos{
+    position: absolute;
+    top: 490px;
+    width: 255px;
+    height: 312px;
+    left: 551px;
+}
+.letrarenglondos{
+    font-size: 17px;
+    top: 786px;
+    position: absolute;
+    left: 551px;
+    font-family: sans-serif; 
+}
+.letrarenglondosdos{
+    font-size: 32px;
+    top: 820px;
+    position: absolute;
+    left: 551px;
+    font-family: sans-serif;
+}
+.fotorenglontwo{
+    position: absolute;
+    top: 490px;
+    width: 255px;
+    height: 312px;
+    left: 995px;
+}   
+.letrarenglontwo{
+    font-size: 17px;
+    top: 786px;
+    position: absolute;
+    left: 995px;
+    font-family: sans-serif;
+}
+.letrarenglontwotwo{
+    font-size: 32px;
+    top: 820px;
+    position: absolute;
+    left: 995px;
+    font-family: sans-serif;
+}
+.fotorenglon3{
+    position: absolute;
+    top: 940px;
+    width: 255px;
+    height: 312px;
+    left: 120px;
+}
+.letrarenglon3{
+    font-size: 17px;
+    top: 1237px;
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif;
+}
+.letrarenglon33{
+    font-size: 32px;
+    top: 1270px;
+    position: absolute;
+    left: 120px;
+    font-family: sans-serif;
+}
+.fotorenglontres{
+    position: absolute;
+    top: 940px;
+    width: 255px;
+    height: 312px;
+    left: 551px;
+}
+.letrarenglontres{
+    font-size: 17px;
+    top: 1237px;
+    position: absolute;
+    left: 551px;
+    font-family: sans-serif;
+}
+.letrarenglontrestres{
+    font-size: 32px;
+    top: 1270px;
+    position: absolute;
+    left: 551px;
+    font-family: sans-serif;
+}
+.fotorenglonthree{
+    position: absolute;
+    top: 940px;
+    width: 255px;
+    height: 312px;
+    left: 995px;
+}
+.letrarenglonthree{
+    font-size: 17px;
+    top: 1237px;
+    position: absolute;
+    left: 995px;
+    font-family: sans-serif;
+}
+.letrarenglonthreethree{
+    font-size: 32px;
+    top: 1270px;
+    position: absolute;
+    left: 995px;
+    font-family: sans-serif;
+}
+.fotoremera1info{
+    position: absolute;
+    height: 548px;
+    left: 100px;
+    top: 120px;
+    width: 570px;
+}
+.letrarenglon1info{
+    top: 200px;
+    position: absolute;
+    left: 707px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.letrarenglon2info{
+    font-size: 32px;
+    top: 316px;
+    position: absolute;
+    left: 707px;
+    font-family: Arial;
+    color: #000000    
+}
+.fototarjetacredito{
+    position: absolute;
+    top: 405px;
+    width: 22px;
+    height: 15px;
+    left: 707px; 
+}
+.letrarenglon3info{
+    top: 385px;
+    position: absolute;
+    left: 739px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px; 
+    color: purple;
+}
+.letrarenglon4info{
+    top: 455px;
+    position: absolute;
+    left: 707px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px; 
+    color: red 
+}
+.letrarenglon5info{
+    top: 528px;
+    position: absolute;
+    left: 707px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;  
+}
+.letrarenglon6info{
+    top: 582px;
+    position: absolute;
+    left: 712px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;   
+}
+.talleS{
+    top: 582px;
+    position: absolute;
+    left: 750px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.talleM{
+    top: 582px;
+    position: absolute;
+    left: 780px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.talleL{
+    top: 582px;
+    position: absolute;
+    left: 816px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.talleXL{
+    top: 582px;
+    position: absolute;
+    left: 845px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.talleXXL{
+    top: 582px;
+    position: absolute;
+    left: 875px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.talleXXXL{
+    top: 582px;
+    position: absolute;
+    left: 920px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.letrarenglon7info{
+    position: absolute;
+    left: 100px;
+    top: 710px;
+}
+.letradescripcion{
+    top: 719px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+.descripcion1{
+    top: 930px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion2{
+    top: 965px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion3{
+    top: 1005px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion4{
+    top: 1048px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; }
+.descripcion5{
+    top: 1089px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; }
+.descripcion6{
+    top: 1131px;
+    position: absolute;
+    left: 457px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; }
+.descripcion7{
+    top: 930px;
+    position: absolute;
+    left: 1028px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion8{
+    top: 965px;
+    position: absolute;
+    left: 1028px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion9{
+    top: 1005px;
+    position: absolute;
+    left: 1028px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion10{
+    top: 1048px;
+    position: absolute;
+    left: 1028px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion11{
+    top: 1120px;
+    position: absolute;
+    left: 1028px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.descripcion12{
+    top: 1150px;
+    position: absolute;
+    left: 1028px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.botonera{
+	font-size: 20px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
